@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<body>
+<input type="text" id="moduleInput">
+<button onclick="ajouterModule()">Ajouter</button>
+<ul id="listeModules"></ul>
+<script>
+letmodules = [];
+function afficherModules(){
+    const ul = document.getElementById("listeModules");
+    ul.innerHTML = "";
+    modules.forEach(m => {
+        ul.innerHTML += "<li>" + m + "</li>";
+    });
+}
+function ajouterModule() {
+    const input = document.getElementById("moduleInput");
+    if (input.value.trim() !== "") {
+        modules.push(input.value.trim());
+        afficherModules();
+        input.value = "";
+        "<button onclick='supprimer("+i+")'>xxx</button>"
+    }
+}
+afficherModules();
+</script>
+</body>
+</html>

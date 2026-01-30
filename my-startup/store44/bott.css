@@ -1,0 +1,11 @@
+body{
+    background-image: url(imagecss/téléchargement.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+label{
+    color: rgb(231, 229, 227);
+}
+body :hover{
+    background-color: rgba(127, 8, 239, 0.091);
+}

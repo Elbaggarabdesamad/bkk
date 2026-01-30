@@ -1,0 +1,142 @@
+ /*.mm{
+    height:200px ;
+    width: 200px;
+    background-color:yellow;
+    border:dotted 6px ;
+    overflow: scroll;
+ }
+ th{
+    background-color: rgb(110, 110, 176);
+ }
+ td{
+    background-color: rgb(130, 202, 202);
+ }
+ table{
+    width: 600px;
+ }
+.gg{
+   background-color: black;
+   width: 150px;
+   height: 200px;
+   background-size: contain;
+}
+.gg:hover{
+   background-image: url(imagecss/me.jpg);
+}
+input:focus{
+   background-color: brown;
+}
+input:disabled{
+   background-color: aqua;
+}
+h2+p{
+   color: blue;
+}
+[class="test"i]{
+   color: rgb(8, 2, 7);
+}
+.test{
+   text-decoration:none;
+}
+.mjk{
+   width: 200px;
+   height: 200px;
+   background-color: aquamarine;
+   transform:skew(10deg, 60deg)
+}*/
+.kolchi{
+   background-color: black;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 15px;
+   margin-top: -8;
+}
+.logo{
+   color: white;
+   margin: 0px 50;
+}
+.a a{
+color: rgb(214, 198, 198);
+text-decoration:none;
+margin: 0 70px;
+font-size: 18px;
+
+}
+.a a:hover{
+   color: blue;
+}
+.kolchi:hover{
+   background-color: rgb(119, 124, 114);
+}
+.kolchi1{
+   background-color: gray;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height:120 ;
+   border-radius: 15px;
+   margin-bottom: 20;
+
+}
+a{
+   text-decoration: none;
+   margin: 0 15;
+   font-size: 18px;
+   color: rgb(235, 244, 244);
+
+}
+.kolchi1:hover{
+   background-color:royalblue;
+}
+
+
+
+.kolchi2{
+   display: flex;
+   justify-content:space-around;
+}
+.div1{
+   background-color: rgb(154, 125, 148);
+   padding: 15;
+   border-radius:15px ;
+   margin: 0 15px;
+   background-image: url(imagecss/téléchargement.webp);
+    width: 30%;
+}
+.div2{
+   background-color: rgb(197, 63, 168);
+   padding: 15;
+    border-radius:15px ;
+     margin: 0 15px;
+     background-image: url(imagecss/me.jpg);
+      width: 30%;
+}
+.div3{
+   background-color: rgb(125, 15, 84);
+   padding: 15;
+    border-radius:15px ;
+   margin: 0 15px;
+   background-image: url(imagecss/gumball.jpg);
+   width: 30%;
+}
+.kolchi3{
+   background-color: blueviolet;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 20px;
+}
+.p{
+   background-color:rgb(219, 216, 216);
+   color: white;
+   border-radius: 5px;
+   width: 80%;
+   text-align: center;
+   margin-bottom: 20;
+}
+.hr{
+   background: blue;
+   height: 1;
+   width: 80%;
+}

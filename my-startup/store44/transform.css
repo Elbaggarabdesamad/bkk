@@ -1,0 +1,11 @@
+.gg{
+    padding: 30px;
+    background-color: aqua;
+    width: 150px;
+    margin-left: 30%;
+    
+}
+.gg:hover{
+    transform: skew(30deg);
+}
+
